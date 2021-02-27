@@ -108,3 +108,33 @@ section {
 .timeline_desc span {
   font-weight: bold;
 }
+
+.botao {
+  margin-top: 30px;
+}
+
+.botao a{
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(114, 66, 7);
+}
+
+.botao:hover {
+  padding: 10px;
+  align-items: center;
+  border-radius: 100px;
+  background-color: burlywood;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin-top: 30px;
+  background-color: rgb(248, 215, 175);
+}
+
+.container_footer {
+  width: 1200px;
+}
