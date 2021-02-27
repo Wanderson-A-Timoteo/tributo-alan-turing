@@ -4,8 +4,9 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: bisque;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgba(24, 23, 23, 0.842);
+  color:rgba(24, 23, 23, 0.842);
 }
 
 header {
@@ -38,6 +39,7 @@ article {
 .container_article {
   display: flex;
   width: 1200px;
+  background-color: bisque;
 }
 
 .turing {
@@ -66,7 +68,6 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .container_title {
@@ -75,6 +76,7 @@ section {
   align-items: center;
   width: 1200px;
   height: 100px;
+  background-color: bisque;
 }
 
 .title {
@@ -86,15 +88,14 @@ section {
   display: flex;
   flex-direction: column;
   width: 1200px;
+  background-color: bisque;
 }
 
 .timeline_itens {
+  padding: 10px;
   display:  flex;
   align-items: center;
   border: 1px solid rgb(248, 211, 165);
-}
-
-.timeline_imagem {
 }
 
 .timeline_imagem img {
@@ -111,6 +112,7 @@ section {
 
 .botao {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .botao a{
@@ -133,8 +135,12 @@ footer {
   height: 100px;
   margin-top: 30px;
   background-color: rgb(248, 215, 175);
+  height: 30px;
 }
 
 .container_footer {
-  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
