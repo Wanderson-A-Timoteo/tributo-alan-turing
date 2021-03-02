@@ -6,7 +6,7 @@
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #14a37f;
-  color:rgba(24, 23, 23, 0.842);
+  color: black;
 }
 
 header {
@@ -21,7 +21,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1200px;
+  width: 990px;
 }
 
 .menu {
@@ -29,6 +29,11 @@ header {
   font-size: 30px;
   color: #FFFFFF;
   font-weight: bold;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 article {
@@ -39,7 +44,7 @@ article {
 
 .container_article {
   display: flex;
-  width: 1200px;
+  width: 990px;
   background-color: #4aedc4;
 }
 
@@ -57,6 +62,7 @@ article {
 .descricao {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
   margin-left: 30px;
   margin-right: 20px;
   font-size: 18px;
@@ -77,7 +83,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1200px;
+  width: 990px;
   height: 100px;
   background-color:#4aedc4;
   padding-top: 50px;
@@ -92,7 +98,7 @@ section {
 .container_timeline {
   display: flex;
   flex-direction: column;
-  width: 1200px;
+  width: 990px;
   background-color:#4aedc4;
 }
 
