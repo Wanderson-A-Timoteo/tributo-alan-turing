@@ -13,6 +13,7 @@
 
   .container_title {
     flex-direction: column;
+    width: 100%;
   }
 
   .container_timeline{
