@@ -29,10 +29,12 @@
 
   .container_footer{
     flex-direction: column;
+    margin-bottom: 20px;
   }
 
   .copy{
     flex-direction: column;
+    
   }
 
   .copy_link a{
