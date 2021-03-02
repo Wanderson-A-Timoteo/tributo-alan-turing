@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+  .container{
+    flex-direction: column;
+  }
+
+  .container_article{
+    flex-direction: column;
+  }
+
+  .turing {
+    flex-direction: column;
+  }
+
+  .container_title {
+    flex-direction: column;
+  }
+
+  .container_timeline{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .timeline_itens {
+    flex-direction: column;
+    border: none;
+    border-bottom: 1px solid #14a37f;
+  }
+
+  .container_footer{
+    flex-direction: column;
+  }
+
+  .copy{
+    flex-direction: column;
+  }
+
+  .copy_link a{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+ }
